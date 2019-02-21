@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import store from '../store';
+import store from '../store/store';
 import { View } from 'react-native';
-import { Provider } from 'redux';
+import { Provider } from 'react-redux';
 import {Header} from '../common/Header';
 
 class App extends Component {
